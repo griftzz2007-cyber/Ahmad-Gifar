@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="index.js" defer></script>
+    <script src="contact-handler.js" defer></script>
+    <title>Mobil Bekas Soppeng Jaya Motor</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="brand">
+            <h1>SOPPENG JAYA<b class="accent"> MOTOR</b></h1>
+        </a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html">HOME</a>
+            <a href="collection.html">CARS</a>
+            <a href="index.html">ABOUT</a>
+            <a href="index.html">REVIEW</a>
+        </div>
+        <button class="btn-2" onclick="window.location.href='contact.html'">Contact</button>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </nav>
+
+    <!-- Contact section -->
+    <section class="contact">
+        <h1>Dapatkan mobil impian Anda bersama Mobil Bekas Soppeng Jaya Motor</h1>
+        <p>Punya pertanyaan atau butuh bantuan? Tim kami siap membantu Anda menemukan mobil yang tepat untuk petualangan Anda.</p>
+        
+        <!-- Tombol Jual Mobil -->
+        <div style="text-align: center; margin: 30px 0;">
+            <a href="jual_mobil.php" style="display: inline-block; padding: 15px 40px; background: linear-gradient(135deg, #e25c0f 0%, #ff7f3f 100%); color: white; text-decoration: none; border-radius: 10px; font-weight: 700; font-size: 18px; box-shadow: 0 5px 15px rgba(226, 92, 15, 0.4); transition: all 0.3s;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 20px rgba(226, 92, 15, 0.5)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(226, 92, 15, 0.4)'">
+                 Ingin Jual Mobil Anda? Klik Di Sini!
+            </a>
+        </div>
+        
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="0d0433a1-77fb-40a6-9e4e-dcdf0308586b">
+            <div class="contact-form">
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="tel" name="phone" placeholder="Phone" required />
+                <button type="submit" class="btn-2">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="index-footer">
+        <div class="callout">
+            <h2>Ayo Miliki Mobil Impian Anda</h2>
+            <p class="callout-description">
+                Butuh bantuan atau ingin langsung booking? Hubungi kami sekarang juga dan nikmati layanan terbaik!
+            </p>
+            <div class="callout-buttons">
+                <button class="btn-2 btn-callout" onclick="window.location.href='collection.html'">
+                    <p>Lihat Mobil</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+                <button class="btn-2 btn-callout btn-callout-black" onclick="window.location.href='contact.html'">
+                    <p>Hubungi Sekarang</p>
+                    <i class="fa-solid fa-phone"></i>
+                </button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <a href="/" class="footer-brand">Soppeng Jaya <b class="accent">Motor</b></a>
+                        <div class="socials">
+                <a href="https://wa.me/message/KEAN25HOEDICC1" class="social-item"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/nurijayamotor?utm_source=qr&igsh=MW9iNjd3bGdjbTFkdA==" class="social-item"><i class="fa-brands fa-instagram"></i></a>
+                <a href="/" class="social-item"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.tiktok.com/@nurijayagroup?_t=ZS-8z3r7zn2qNE&_r=1" class="social-item"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
